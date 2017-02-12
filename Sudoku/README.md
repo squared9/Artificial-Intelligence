@@ -7,6 +7,8 @@ This project solves Sudoku including diagonal uniqueness conditions, i.e. each n
 # 1. Elimination
 *First, we can look around each box and see which values can't be there*
 
+On the following picture we focus on the red box. Here we can see explore all units the red box is in and see which values it can't have. From column units, we see that it can't have values **2** and **1**. From row unit it can't take values **9**, **3**, **5** and **1**. From square values it can't have **2**, **3**, **5**, **8** and **6**. So the only values left are **4** and **7**, so this box becomes [**47**](https://en.wikipedia.org/wiki/Agent_47). 
+
 ![Elimination](images/reduce-values.png)
 
 # 2. Only choice
