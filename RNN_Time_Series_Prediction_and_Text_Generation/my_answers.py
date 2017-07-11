@@ -8,7 +8,6 @@ import keras
 import string
 
 
-# TODO: fill out the function below that transforms the input series 
 # and window-size into a set of input/output pairs for use with our RNN model
 def window_transform_series(series, window_size):
     # containers for input/output pairs
