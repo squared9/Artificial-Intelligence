@@ -1,0 +1,25 @@
+-------------------
+input chars = 
+ his eyes she eclipses and predominates the whole of her sex. it was not that he felt any emotion ak"
+predicted chars = 
+ing the street. i shall beli and to down and to see the langer and allanger and sack in the lady sti"
+-------------------
+input chars = 
+she eclipses and predominates the whole of her sex. it was not that he felt any emotion akin to love"
+predicted chars = 
+ my one so i knewhen, the rest of the window, and i shall be a pery so way doning the strettion of t"
+-------------------
+input chars = 
+in to love for irene adler. all emotions, and that one particularly, were abhorrent to his cold, pre"
+predicted chars = 
+ce, where is han been and about the staille. i have no dive through threy had been sherrould. indies"
+-------------------
+input chars = 
+r, of dubious and questionable memory. i had seen little of holmes lately. my marriage had drifted u"
+predicted chars = 
+pon the station. i have been her haises to geve my hat been by the window, with a clain that i had b"
+-------------------
+input chars = 
+d authoritative tap. come in! said holmes. a man entered who could hardly have been less than six fe"
+predicted chars = 
+en the street. it is the streng matter was a very sendie a dess. of the condrestand, and a man who h"
