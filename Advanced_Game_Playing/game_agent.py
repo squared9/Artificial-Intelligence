@@ -67,7 +67,7 @@ def score_2(game, player):  # 67.14%
     if previous_opponent_moves is None:
         previous_opponent_moves = 2 * opponent_moves
 
-    return float((previous_player_moves - player_moves) - (previous_opponent_moves - opponent_moves))
+    return float((player_moves - previous_player_moves) - (previous_opponent_moves - opponent_moves))
 
 
 def score_3(game, player):  # 57.14%
@@ -99,7 +99,7 @@ def score_3(game, player):  # 57.14%
     if opponent_moves == 0:
         return float("inf")
 
-    return float((previous_player_moves / player_moves) - (previous_opponent_moves / opponent_moves))
+    return float((player_moves - previous_player_moves) - (previous_opponent_moves / opponent_moves))
 
 
 def score_4(game, player):  # 50.71%
@@ -131,7 +131,7 @@ def score_4(game, player):  # 50.71%
     if opponent_moves == 0:
         return float("inf")
 
-    return float((previous_player_moves / player_moves) / (previous_opponent_moves / opponent_moves))
+    return float((player_moves - previous_player_moves) / (previous_opponent_moves / opponent_moves))
 
 
 def score_5(game, player):  # 78.57%
